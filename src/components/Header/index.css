@@ -1,0 +1,96 @@
+/* Write your CSS code here */
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: 'Roboto';
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+@media screen and (max-width: 768px) {
+  .header-container {
+    align-items: flex-start;
+  }
+}
+.website-logo-image {
+  height: 50px;
+  width: 200px;
+}
+.nav-and-btn-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav-container {
+  padding-left: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .nav-container {
+    display: none;
+  }
+}
+.nav-container2 {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-container2 {
+    padding-left: 0px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+  }
+}
+.link-style {
+  text-decoration: none;
+}
+.nav-link {
+  color: #64748b;
+  font-weight: 400;
+  margin-right: 15px;
+}
+.link-icon {
+  height: 30px;
+  width: 30px;
+}
+
+.logout-btn {
+  border: 0px;
+  background-color: #0b69ff;
+  height: 28px;
+  width: 80px;
+  color: #ffffff;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 14px;
+}
+@media screen and (max-width: 768px) {
+  .logout-btn {
+    display: none;
+  }
+}
+.logout-mobile-btn {
+  background-color: #ffffff;
+  border: 0px;
+}
+.logout-icon {
+  height: 30px;
+  width: 30px;
+  background-color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .logout-mobile-btn {
+    display: none;
+  }
+}

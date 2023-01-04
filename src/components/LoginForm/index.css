@@ -1,0 +1,112 @@
+/* Write your CSS code here */
+.login-route-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding-left: 80px;
+  padding-right: 80px;
+  font-family: 'Roboto';
+}
+@media screen and (max-width: 992px) {
+  .login-route-container {
+    padding: 30px;
+  }
+}
+.login-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+@media screen and (max-width: 992px) {
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.login-image {
+  height: 330px;
+  width: 600px;
+}
+
+.login-image2 {
+  display: none;
+}
+@media screen and (max-width: 992px) {
+  .login-image {
+    display: none;
+  }
+}
+@media screen and (max-width: 992px) {
+  .login-image2 {
+    display: flex;
+    height: 140px;
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+.login-form {
+  box-shadow: 0px 4px 16px 0px #d7dfe9;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 6px;
+  width: 350px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+@media screen and (max-width: 992px) {
+  .login-form {
+    width: 100%;
+    box-shadow: 0px 0px 0px 0px;
+  }
+}
+
+.website-logo {
+  height: 72px;
+  width: 210px;
+  margin-bottom: 10px;
+}
+.login-details-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+.field-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18px;
+}
+.label {
+  color: #475569;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+.input-field {
+  height: 35px;
+  padding-left: 17px;
+  background-color: #e2e8f0;
+  border: 0px;
+  font-size: 15px;
+  outline: none;
+}
+.login-btn {
+  height: 35px;
+  border: 0px;
+  background-color: #0b69ff;
+  color: #ffffff;
+  border-radius: 4px;
+  font-size: 18px;
+  margin-top: 8px;
+}
+.err-msg {
+  color: #ff0b37;
+  font-size: 13px;
+}
